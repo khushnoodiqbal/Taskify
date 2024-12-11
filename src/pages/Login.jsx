@@ -11,7 +11,7 @@ const Login = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-
+  console.log(user)
   const navigate = useNavigate();
 
   const submitHandler = async (data) => {
